@@ -44,7 +44,7 @@
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>  
-        <hr>          
+          
             </div>
 
 <?php snippet('sidebar') ?>

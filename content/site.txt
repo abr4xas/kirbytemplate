@@ -1,0 +1,13 @@
+﻿Title: El blog de abr4xas
+
+----
+
+Author: abr4xas
+
+----
+
+Description: # nano /var/log/anything.log
+
+----
+
+2010-(date: Year) Theme made by (link: # text: abr4xas) Based on (link: http://getkirby.com text: Kirby) | (link: feed text: RSS Feed) | (link: http://creativecommons.org/licenses/by-sa/3.0/ text: CC BY-SA).

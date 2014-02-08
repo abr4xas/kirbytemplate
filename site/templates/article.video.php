@@ -47,9 +47,9 @@
              data-ad-format="auto"></ins>
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>            
+        </script>    
+
             </div>
-            <hr>
 
 <?php snippet('sidebar') ?>
 <?php snippet('footer') ?>
