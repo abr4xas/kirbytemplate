@@ -51,10 +51,19 @@
                 <div class="well">            
                      <legend>Advertencia:</legend>
                     <div class="alert alert-danger">
-                
-                <p>Este sitio web utiliza cookies propias y de terceros para optimizar tu navegaci&oacute;n, adaptarse a tus preferencias y realizar labores anal&iacute;ticas. Al continuar navegando aceptas nuestra <a class="alert-link" href="#" data-toggle="modal" data-target="#myModal">Pol&iacute;tica de Cookies.</a>
-                </p>
-            </div>   </div>
+                      <p>Este sitio web utiliza cookies propias y de terceros para optimizar tu navegaci&oacute;n, adaptarse a tus preferencias y realizar labores anal&iacute;ticas. Al continuar navegando aceptas nuestra <a class="alert-link" href="#" data-toggle="modal" data-target="#myModal">Pol&iacute;tica de Cookies.</a>
+                      </p>
+                  </div>   
+                </div>
+                <div class="well">            
+                     <legend>Me compras un caf&eacute;?</legend>
+                   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <input type="hidden" name="hosted_button_id" value="RKG8G3ABP4XSW">
+                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                  </form> 
+                </div>                
             </div> <!-- /col-lg-4 -->
         </div>   
   
