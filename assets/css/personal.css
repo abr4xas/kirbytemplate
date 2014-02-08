@@ -1,0 +1,47 @@
+body {
+    background-color: #3498db;
+}
+.page{
+        background-color: #fff;
+                  -moz-box-shadow: 3px 3px 4px #000;
+  -webkit-box-shadow: 3px 3px 4px #000;
+  box-shadow: 3px 3px 4px #000;
+        
+    }
+blockquote {
+  background-color: #333;
+  color: #fff;
+  border: 1px #fff;
+  padding: 5px 15px;
+  -moz-box-shadow: 3px 3px 4px #000;
+  -webkit-box-shadow: 3px 3px 4px #000;
+  box-shadow: 3px 3px 4px #000;
+}
+blockquote:before {
+        font-size:4em;
+        line-height:.1em;
+        margin-right:.25em;
+        vertical-align:-.4em;
+        color:#ccc;
+    }
+blockquote p{
+        font-style:italic;
+} 
+.thumbnail{
+    
+     border: 0;
+}
+.video {
+    height: 100%;
+    max-width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+    width: 100%;
+}
+iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
