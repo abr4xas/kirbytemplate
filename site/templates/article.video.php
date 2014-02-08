@@ -49,6 +49,7 @@
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>            
             </div>
+            <hr>
 
 <?php snippet('sidebar') ?>
 <?php snippet('footer') ?>

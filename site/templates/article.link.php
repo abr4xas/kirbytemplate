@@ -43,31 +43,9 @@
              data-ad-format="auto"></ins>
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>            
+        </script>  
+        <hr>          
             </div>
 
-<?php snippet('sidebar') ?>
-<?php snippet('footer') ?>
-
- <!-- blog entry -->
-                <h1><?php echo html($page->linktitle()) ?></h1>
-                 <p>
-                    <span class="glyphicon glyphicon-time"></span> Posted on <time datetime="<?php echo $page->date('c') ?>"><?php echo $page->date('d.m.Y'); ?></time>
-                <?php if ($page->categories() != ''): ?> in:
-                    <?php foreach(str::split($page->categories()) as $category): ?>
-                    <a href="<?php echo url('category:' . urlencode($category)) ?>"><?php echo $category; ?></a>
-                    <?php endforeach ?>
-                <?php endif ?></p>
-                <hr>
-                <?php echo kirbytext(utf8_decode($page->text())) ?>
-            </div>
-
-
-    <section>
-        <div>
-            <a class="button button-small" href="<?php echo url() ?>"><i class="fa fa-angle-left"></i> Back</a>
-            <a class="button button-small" target="_blank" href="https://twitter.com/intent/tweet?source=webclient&text=<?php echo rawurlencode($page->title()); ?>%20<?php echo rawurlencode ($page->url()); ?>%20<?php echo ('via @abr4xas')?>" target="blank" title="Tweet this"><i class="fa fa-twitter"></i> Tweet this</a>
-        </div>
-    </section>
 <?php snippet('sidebar') ?>
 <?php snippet('footer') ?>
