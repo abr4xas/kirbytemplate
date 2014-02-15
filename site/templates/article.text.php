@@ -21,7 +21,7 @@
                     <?php endforeach ?>
                 <?php endif ?></p>
                 <hr>
-                <?php echo kirbytext(utf8_decode($page->text())) ?> 
+                <?php echo kirbytext($page->text()) ?> 
 				<br>
 				<p>Me compras un caf&eacute;?</p>
 	            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
@@ -44,7 +44,8 @@
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>  
-          
+
+            
             </div>
 
 <?php snippet('sidebar') ?>

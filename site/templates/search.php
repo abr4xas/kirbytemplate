@@ -47,7 +47,7 @@
                     <?php endforeach ?>
                 <?php endif ?></p>
                                 <hr>
-            <p><?php echo markdown(utf8_decode((excerpt($result->text(), 400)))) ?></p>
+            <p><?php echo markdown((excerpt($result->text(), 400))) ?></p>
 
             <a class="btn btn-primary" href="<?php echo $result->url() ?>">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 

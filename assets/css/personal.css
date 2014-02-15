@@ -45,3 +45,7 @@ iframe {
     top: 0;
     width: 100%;
 }
+.ad { 
+    display: table; 
+    margin: 0 auto; 
+}

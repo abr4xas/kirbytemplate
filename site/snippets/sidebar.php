@@ -1,31 +1,46 @@
             <div class="col-lg-4">
                 <div class="well">
                     <h4>Blog Search</h4>
- <form class="search cf" role="search" action="<?php echo url('search') ?>">
-                    <div class="input-group">
-                        <input type="search" name="q" id="q" placeholder="Search..." class="form-control">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </button>
-                        </span>
-                    </div>
-</form>                    
-
+                 <form class="search cf" role="search" action="<?php echo url('search') ?>">
+                                    <div class="input-group">
+                                        <input type="search" name="q" id="q" placeholder="Search..." class="form-control">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button">
+                                                <span class="glyphicon glyphicon-search"></span>
+                                            </button>
+                                        </span>
+                                    </div>
+                </form>                    
                     <!-- /input-group -->
                 </div>
+                <div class="list-group well">
+                    <legend>Blogroll</legend>
+                  <a href="http://xombra.com" target="_blank" class="list-group-item">xombra.com</a>
+                  <a href="http://www.vaslibre.org.ve/" target="_blank" class="list-group-item">vaslibre.org.ve</a>
+                </div>
+                
                 <!-- /well -->
                 <div class="well">
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- blogp -->
-                    <ins class="adsbygoogle"
-                         style="display:inline-block;width:300px;height:250px"
-                         data-ad-client="ca-pub-7127443823639155"
-                         data-ad-slot="4457843561"></ins>
-                    <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
+                    <legend>Publicidad</legend>
+                    <?php 
+                        $splitIt = rand()&1; echo "<!-- $splitIt -->"; 
+                    ?>
+                    <?php 
+                        if ($splitIt == 0) { 
+                    ?>
+                    <a href="/about" target="_blank"><img src="<?php echo url() ?>static/ad300.gif" class="img-responsive ad"></a>
+                    <?php 
+                        } 
+                    ?>
+
+                    <?php 
+                        if ($splitIt == 1) { 
+                    ?>
+                    <a href="http://valenciadelrey.com/web/index.php" target="_blank"><img src="http://valenciadelrey.com/banner/loveval2.jpg" class="img-responsive ad"></a>
+                    <?php 
+                        } 
+                    ?>                               
+                </div>                
                 <!-- /well -->
                 <div class="well">
                     <legend>Email Subscriptions</legend>
@@ -44,7 +59,7 @@
                 </div>  
                 <div class="well">
                     <legend>Follow me:</legend>
-                    <a href="http://twitter.com/abr4xas" target="_blank" class="btn btn-info btn-lg btn-block" role="button">Follow @ Twitter</button></a>
+                    <a href="http://twitter.com/abr4xas" target="_blank" class="btn btn-info btn-lg btn-block" role="button">@abr4xas</a>
                     <!-- button class="btn btn-primary btn-lg btn-block" type="button">Follow @ Facebook</button>
                     <button class="btn btn-danger btn-lg btn-block" type="button">Follow @ G+</button -->
                 </div>   
@@ -63,7 +78,8 @@
                       <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                       <img class="img-responsive" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                   </form> 
-                </div>                
+                </div>
+
             </div> <!-- /col-lg-4 -->
         </div>   
   

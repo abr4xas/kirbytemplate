@@ -1,5 +1,4 @@
 <?php snippet('header'); ?>
-
     <?php snippet('menu'); ?>
     <div class="container page">
       <div class="page-header" id="banner">
@@ -13,7 +12,6 @@
 <div class="row">
             <div class="col-lg-8">        
         <?php if(param('category')) {   /*** article overview ***/
-
             $articles = $pages->find('blog')
                             ->children()
                             ->visible()
@@ -21,21 +19,16 @@
                             ->flip()
                             ->paginate(4);
 
-                            echo ('<section class="blank">
-		                              <div class="flash success">
-			                             <span><i class="icon-2x fa fa-smile-o"></i></span>
-			                                 <h1>Category Archives: <em>'),(param('category')), ('</em></h1>
-		                              </div>
-	                               </section>');                         
+                            echo ('<div class="page-header">
+                                    <h1>Category Archives: <small>'),(param('category')), ('</small></h1>
+                                   </div>');                         
             } else {
-
             $articles = $pages->find('blog')
                             ->children()
                             ->visible()
                             ->flip()
                             ->paginate(4);
         }?>
-
         <?php foreach($articles as $article): ?>
 
         <?php if($article->template() == 'article.text'): /*** post format: TEXT ***/ ?>
@@ -53,7 +46,7 @@
                 <?php endif ?></p>
                 <hr>
 
-                <?php echo markdown(utf8_decode((excerpt($article->text(), 300)))) ?>
+                <?php echo markdown((excerpt($article->text(), 550))) ?>
                 <a class="btn btn-primary" href="<?php echo $article->url() ?>">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
                 <hr>
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

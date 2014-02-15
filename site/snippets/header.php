@@ -24,7 +24,7 @@ Header Snippet for the Baseblog Kirby Theme
     <meta property="og:title" content="<?php echo html($page->title()) ?> | <?php echo html($site->title()) ?>">
     <meta property="og:type" content="website"> 
     <meta property="og:url" content="<?php echo $page->tinyurl() ?>">
-    <meta property="og:image" content="logo.png">
+    <meta property="og:image" content="<?php echo url() ?>logo.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="300">
