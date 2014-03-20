@@ -1,0 +1,33 @@
+ï»¿Title: About
+
+----
+
+Description: This could be a pretty nice about page.
+
+----
+
+Text: Lorem ipsum dolor sit amet, consectetuer _adipiscing_ elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+
+Lorem ipsum dolor sit amet, **consectetuer** adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+
+##Heading 2
+Lorem ipsum dolor sit amet, consectetuer (link: http://sashtown.de text: adipiscing) elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+
+> What a beautiful blockquote this is... Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+
+###Heading 3
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+
+####Unordered list
+-   Lorem ipsum dolor
+-   Lorem ipsum dolor
+-   Lorem ipsum dolor
+
+####Ordered list
+1.  Lorem ipsum dolor
+2.  Lorem ipsum dolor
+3.  Lorem ipsum dolor
+
+##Enlazános en tu sitio web
+
+    <a href="http://abr4xas.org" target="_blank" title="abr4xas.org"><img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-prn2/t1/1375758_1378127522423533_1335788860_n.jpg" alt="abr4xas.org" width="468" height="60" border="0" /></a>

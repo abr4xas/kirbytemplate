@@ -1,0 +1,26 @@
+﻿Title: Miriada X: Desarrollo de Aplicaciones Web, 2a edición
+
+----
+
+Description: Este curso capacita para un primer nivel de desarrollo de aplicaciones móviles en HTML5, CSS y JavaScript accesibles desde PC, móvil, tableta, SmartTv u otros dispositivos que soporten HTML5.
+
+----
+
+Date: 2014-02-13
+
+----
+
+Categories: Dev
+
+----
+
+Text: (image: unnamed.gif class: img-responsive)
+Esta segunda edición corrige errores, introduce mejoras y algunos temas nuevos, integrando
+además programación y diseño mucho mejor para facilitar su comprensión, especialmente a
+las personas que empiezan a programar. 
+
+ Este curso es el primero del programa "Diseño de servicios en la nube para acceso móvil y multi-dispositivo con HTML5" impulsado y patrocinado por Red.es, Universia, CENATIC, Telefónica Digital y TLS. El programa consta de 5 cursos, que se irán incorporando progresivamente en MiríadaX.
+
+Este curso capacita para un primer nivel de desarrollo de aplicaciones móviles en HTML5, CSS y JavaScript accesibles desde PC, móvil, tableta, SmartTv u otros dispositivos que soporten HTML5. El curso es para principiantes en HTML5 e ilustra los conceptos con ejemplos sencillos y multidisciplinares, tanto de programación, como de diseño gráfico o de diseño de la interacción. Los participantes aprenderán a diseñar interfaces con HTML y CSS, así como a programar en JavaScript nuevas funcionalidades y aplicaciones. Se enseñará a crear aplicaciones Web genéricas independientes de dispositivo, así como a empaquetarlas para FirefoxOS. Empaquetarlas para Android o iPhone es sencillo, pero no se cubre en este curso.
+
+Para más informacióm: (link: https://www.miriadax.net/web/firefox-os-2edicion text: aquí).

@@ -10,4 +10,4 @@ Description: # nano /var/log/anything.log
 
 ----
 
-2010-(date: Year) Theme made by (link: # text: abr4xas) Based on (link: http://getkirby.com text: Kirby) | (link: feed text: RSS Feed) | (link: http://creativecommons.org/licenses/by-sa/3.0/ text: CC BY-SA).
+Copyright: 2010-(date: Year) Theme made by (link: # text: abr4xas) Based on (link: http://getbootstrap.com  text: Bootstrap 3.1.0 popup: yes) - (link: feed text: RSS Feed popup: yes) - (link: http://creativecommons.org/licenses/by-sa/3.0/ text: CC BY-SA popup: yes).

@@ -1,0 +1,5 @@
+﻿Title: Blog
+
+----
+
+Description: Tecnologia, gnu/linux... Anime, cine, geek, nerd, programación...

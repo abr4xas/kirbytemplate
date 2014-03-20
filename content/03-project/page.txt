@@ -1,0 +1,29 @@
+﻿Title: Proyectos
+
+----
+
+Description: Los proyectos en los que estoy trabajando, estoy colaborando...
+
+----
+
+Text: La mayoría de los proyectos en los que estoy trabajando/colaborando se encuentran en  
+(image: https://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Logo.png class: img-responsive ad)
+
+Acá les puedos listar algunos:
+
+# DNB player 
+DNB player es una aplicación para Firefox OS de Drum 'n bass.
+# Flatby UI Kit
+Flatby is a free, flat ui kit for your projects. It uses SCSS type sass for stylesheets, and is (usualy) under development.
+# BOFH excuses
+Another foolish wp plugin
+# ReFu
+Regulatory functions, an wordpess plug-in
+
+(link: https://github.com/abr4xas?tab=repositories text: ir a github popup: yes).
+
+_________________________________________________________________________________________
+Estos otros proyectos aun no estoy seguro si seguir adelante con ellos de igual manera estarán reflejados acá hasta nuevo aviso :)
+
+# ROM's Firefox OS para ZTE Open
+Bueno, esto aun no esta materializado pero si estoy interesado en realizar alguna ***ROM*** para ZTE Open.

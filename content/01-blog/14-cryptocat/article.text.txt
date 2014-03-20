@@ -1,0 +1,33 @@
+﻿Title: Cryptocat
+
+----
+
+Description: Cryptocat utiliza tecnologías web modernas para proporcionar un fácil de uso de chat encriptado accesible con tus amigos, en tu navegador.
+
+----
+
+Date: 2014-02-17
+
+----
+
+Categories: Privacy
+
+----
+
+Text: (image: https://crypto.cat/img/logo.png class: img-responsive)
+
+# Chat Privado puede ser fácil y accesible.
+
+Cryptocat utiliza tecnologías web modernas para proporcionar un fácil de uso de chat encriptado accesible con tus amigos, en tu navegador. Todo está codificada antes que deje su computadora - incluso la propia red Cryptocat no puede leer sus mensajes. Además, Cryptocat es un software de código abierto.
+
+Cryptocat esta disponible para:
+
+ * (link: https://chrome.google.com/webstore/detail/gonbigodpnfghidmnphnadhepmbabhij text: Chrome popup: yes)
+ * (link: https://addons.mozilla.org/en-US/firefox/addon/cryptocat/ text: FireFox popup: yes)
+ * (link: https://crypto.cat/get/cryptocat.safariextz text: Safari popup: yes)
+ * (link: https://addons.opera.com/en/extensions/details/cryptocat/ text: Opera popup: yes)
+ * (link: https://itunes.apple.com/us/app/cryptocat/id613116229?ls=1&mt=12 text: OS X popup: yes)
+
+Cryptocat no es una bala mágica. Aunque Cryptocat proporciona cifrado útil, nunca se debe confiar en cualquier pieza de software con tu vida, y Cryptocat no es la excepción.
+
+(link: https://crypto.cat/# text: más información popup: yes).

@@ -1,15 +1,13 @@
 <?php snippet('header'); ?>
-
     <?php snippet('menu'); ?>
     <div class="container page">
-      <div class="page-header" id="banner">
         <div class="row">
           <div class="col-lg-6">
            <a href="<?php echo url() ?>"><h1><?php echo html($site->title()) ?></h1></a>
-            <p class="lead"><code><?php echo html($site->description()) ?></code></p>
+            <code><?php echo html($site->description()) ?></code>
           </div>
         </div>
-      </div>
+
 <div class="row">
         <div class="col-lg-8">
  <!-- blog entry -->

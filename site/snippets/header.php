@@ -1,8 +1,3 @@
-<?php
-/*
-Header Snippet for the Baseblog Kirby Theme
-*******************************************/
-?>
 <!DOCTYPE html>
 <!--[if lte IE 8]><html class="ie"><![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
@@ -34,18 +29,12 @@ Header Snippet for the Baseblog Kirby Theme
     <meta property="og:description" content="<?php echo html($site->description()) ?>">
     <meta name="description" content="<?php echo html($site->description()) ?>" />    
 <?php endif ?>
-<link href='http://fonts.googleapis.com/css?family=Raleway:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
-	<?php echo css('assets/css/bootstrap.css') ?>
+	<?php echo css('assets/css/bootstrap.min.css') ?>
     <?php echo css('assets/css/personal.css') ?>
-    <?php echo css('assets/css/bootswatch.less') ?>
-
     <meta name="apple-mobile-web-app-title" content="<?php echo html($site->title()) ?>">
     <link rel="icon" href="favicon.ico" />
     <link rel="apple-touch-icon" href="<?php echo url('assets/images/apple-touch-icon.png') ?>" />
     <link rel="alternate" type="application/rss+xml" href="<?php echo url('feed') ?>" title="<?php echo html($site->title()) ?>" />
     <link type="text/plain" rel="author" href="humans.txt" />
-   
 </head>
-
 <body>
-

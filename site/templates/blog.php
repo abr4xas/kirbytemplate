@@ -1,14 +1,12 @@
 <?php snippet('header'); ?>
     <?php snippet('menu'); ?>
     <div class="container page">
-      <div class="page-header" id="banner">
         <div class="row">
           <div class="col-lg-6">
            <a href="<?php echo url() ?>"><h1><?php echo html($site->title()) ?></h1></a>
-            <p class="lead"><code><?php echo html($site->description()) ?></code></p>
-          </div>
+            <code><?php echo html($site->description()) ?></code>
+          </div>       
         </div>
-      </div>
 <div class="row">
             <div class="col-lg-8">        
         <?php if(param('category')) {   /*** article overview ***/
@@ -18,7 +16,6 @@
                             ->filterBy('categories', param('category'), ',')
                             ->flip()
                             ->paginate(4);
-
                             echo ('<div class="page-header">
                                     <h1>Category Archives: <small>'),(param('category')), ('</small></h1>
                                    </div>');                         
@@ -30,22 +27,16 @@
                             ->paginate(4);
         }?>
         <?php foreach($articles as $article): ?>
-
         <?php if($article->template() == 'article.text'): /*** post format: TEXT ***/ ?>
-        
-
-
                 <!-- blog entry -->
-                <h1><a href="<?php echo $article->url() ?>"><?php echo html($article->title()) ?></a></h1>
-                <p>
-                    <span class="glyphicon glyphicon-time"></span> Posted on <time datetime="<?php echo $article->date('c') ?>"><?php echo $article->date('d.m.Y'); ?></time>
+                <h3><a href="<?php echo $article->url() ?>"><?php echo html($article->title()) ?></a></h3>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on <time datetime="<?php echo $article->date('c') ?>"><?php echo $article->date('d.m.Y'); ?></time>
                 <?php if ($article->categories() != ''): ?> in:
                     <?php foreach(str::split($article->categories()) as $category): ?>
                     <a href="<?php echo url('category:' . urlencode($category)) ?>"><?php echo $category; ?></a>
                     <?php endforeach ?>
                 <?php endif ?></p>
                 <hr>
-
                 <?php echo markdown((excerpt($article->text(), 550))) ?>
                 <a class="btn btn-primary" href="<?php echo $article->url() ?>">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
                 <hr>
@@ -60,9 +51,8 @@
                     (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>                 
                 <hr>        
-
         <?php elseif($article->template() == 'article.link'): /*** post format: LINK ***/ ?>
-                <h1><a href="<?php echo $article->url() ?>"><?php echo html($article->linktitle()) ?></a></h1>
+                <h3><a href="<?php echo $article->url() ?>"><?php echo html($article->linktitle()) ?></a></h3>
                 <p><span class="glyphicon glyphicon-time"></span> Posted on <time datetime="<?php echo $article->date('c') ?>"><?php echo $article->date('d.m.Y'); ?></time>
                 <?php if ($article->categories() != ''): ?> in
                     <?php foreach(str::split($article->categories()) as $category): ?>
@@ -84,10 +74,8 @@
                     (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>                 
                 <hr>  
-
         <?php elseif($article->template() == 'article.video'): /*** post format: VIDEO ***/ ?>
 
-                <h1><a href="<?php echo $article->url() ?>"><?php echo kirbytext($article->title()) ?></a></h1>
                 <p><span class="glyphicon glyphicon-time"></span> Posted on <time datetime="<?php echo $article->date('c') ?>"><?php echo $article->date('d.m.Y'); ?></time>
                 <?php if ($article->categories() != ''): ?> in
                     <?php foreach(str::split($article->categories()) as $category): ?>
@@ -112,11 +100,8 @@
                     (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>                 
                 <hr>              
-
         <?php endif ?>
-
         <?php endforeach ?>
-
         <?php if($articles->pagination()->hasPages()): /*** pagination ***/ ?>
 		    <ul class="pager">
                 <?php if($articles->pagination()->hasPrevPage()): ?>
@@ -128,6 +113,5 @@
             </ul>
         <?php endif ?>        
     </div>
-
 <?php snippet('sidebar') ?>
 <?php snippet('footer') ?>

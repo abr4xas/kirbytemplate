@@ -1,0 +1,30 @@
+﻿Title: Disponible: Galera Cluster de MariaDB
+
+----
+
+Description: The MariaDB project is pleased to announce the immediate availability of MariaDB Galera Cluster 5.5.35.  This is a Stable (GA) release. See the Release Notes and Changelog for details.
+
+----
+
+Date: 2014-02-14
+
+----
+
+Categories: Dev
+
+----
+
+Text: (image: http://badges.mariadb.org/logo/Mariadb-seal-flat-browntext.svg class: img-responsive)
+The MariaDB project is pleased to announce the immediate availability
+of MariaDB Galera Cluster 5.5.35.
+
+# MariaDB Galera Cluster 5.5.35
+ - Release Notes: <https://mariadb.com/kb/en/mariadb-galera-cluster-5535-release-notes>
+ - Changelog: <https://mariadb.com/kb/en/mariadb-galera-cluster-5535-changelog>  
+ - Downloads: <https://downloads.mariadb.org/mariadb-galera/5.5.35>
+
+ ## About MariaDB Galera Cluster 
+<https://mariadb.com/kb/en/galera/>
+
+ ### APT and YUM Repository Configuration Generator:
+ <https://downloads.mariadb.org/mariadb/repositories/>
