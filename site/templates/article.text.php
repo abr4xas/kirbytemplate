@@ -31,6 +31,7 @@
             <br>
             <a class="btn btn-primary" type="button" href="<?php echo url() ?>"> Back</a>
             <a class="btn btn-info" type="button" target="_blank" href="https://twitter.com/intent/tweet?source=webclient&text=<?php echo rawurlencode($page->title()); ?>%20<?php echo rawurlencode ($page->url()); ?>%20<?php echo ('via @abr4xas')?>" target="blank" title="Tweet this"><i class="fa fa-twitter"></i> Tweet this</a>
+            <div class="fb-share-button" data-href="<?php echo $page->tinyurl() ?>" data-type="button_count"></div>
             <hr>
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- bloio -->
@@ -42,9 +43,8 @@
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>  
+        <hr>       
 
-            
             </div>
-
 <?php snippet('sidebar') ?>
 <?php snippet('footer') ?>
